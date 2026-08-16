@@ -15,6 +15,13 @@ app.get("/health", (req, res) => {
   });
 });
 
+
+app.get("/demo", (req, res) => {
+  res.json({
+    status: "Demo OK",
+  });
+});
+
 const PORT = process.env.PORT || 3000;
 
 if (require.main === module) {
