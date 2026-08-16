@@ -12,7 +12,9 @@
   "scripts": {
     "test": "jest --runInBand",
     "start": "node server.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "vite build"
+   
   },
   "dependencies": {
     "dotenv": "^17.4.2",
