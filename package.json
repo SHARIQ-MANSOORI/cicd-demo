@@ -14,10 +14,10 @@
     "start": "node server.js",
     "lint": "eslint .",
     "build": "vite build"
-   
   },
   "dependencies": {
     "dotenv": "^17.4.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "express": "^5.2.1"
   },
   "devDependencies": {
