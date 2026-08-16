@@ -1,1 +1,1 @@
-This is demo of CI/DC
+This is demo of CI/CD

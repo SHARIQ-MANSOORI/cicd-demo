@@ -1,4 +1,4 @@
-const express = require("express");
+import  express from "express"
 
 
 const app = express();
@@ -35,4 +35,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = app; // this test the server instance for testing purposes
+export default app; // this test the server instance for testing purposes
