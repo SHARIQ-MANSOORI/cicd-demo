@@ -6,7 +6,7 @@ describe("Server Tests", () => {
     const response = await request(app).get("/");
 
     expect(response.statusCode).toBe(200);
-    expect(response.body.message).toBe("CI/CD Demo Application");
+    expect(response.body.message).toBe("Wrong Message");
   });
 
   test("GET /health should return OK", async () => {
