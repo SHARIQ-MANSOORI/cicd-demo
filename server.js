@@ -21,7 +21,12 @@ app.get("/demo", (req, res) => {
     status: "Demo OK",
   });
 });
-
+app.get("/lint",(req,res)=>{
+    res.json({
+        status:"OK",
+        msg:"Lint Successful"
+    })
+})
 const PORT = process.env.PORT || 3000;
 
 if (require.main === module) {
